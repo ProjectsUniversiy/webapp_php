@@ -24,7 +24,7 @@
                 <button type="submit">احسب الآن</button>
             </form>
 
-            <?php // --- منطقة عرض النتائج --- ?>
+           
 
             <?php if ($error_message): ?>
                 <div class="result-box error">

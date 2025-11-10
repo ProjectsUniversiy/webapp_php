@@ -1,7 +1,7 @@
-/* --- 1. إعدادات أساسية وخطوط --- */
+
 body {
     font-family: 'Cairo', sans-serif;
-    background-color: #f0f4f8; /* خلفية بلون أزرق باهت */
+    background-color: #f0f4f8; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@ body {
     box-sizing: border-box;
 }
 
-/* --- 2. الحاوية الرئيسية والبطاقة --- */
+
 .container {
     max-width: 500px;
     width: 100%;
@@ -28,7 +28,7 @@ body {
 h1 {
     margin-top: 0;
     color: #333;
-    font-weight: 700; /* خط عريض */
+    font-weight: 700; 
 }
 
 .subtitle {
@@ -37,30 +37,30 @@ h1 {
     margin-bottom: 25px;
 }
 
-/* --- 3. تنسيق النموذج (Form) --- */
+
 form {
     display: flex;
     flex-direction: column;
-    gap: 15px; /* مسافات بين العناصر */
+    gap: 15px; 
 }
 
 label {
     font-weight: 700;
     color: #444;
-    text-align: right; /* محاذاة لليمين */
+    text-align: right; 
 }
 
 input[type="date"] {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    font-family: 'Cairo', sans-serif; /* استخدام نفس الخط */
+    font-family: 'Cairo', sans-serif; 
     font-size: 16px;
-    box-sizing: border-box; /* لضمان حجم صحيح */
+    box-sizing: border-box; 
 }
 
 button[type="submit"] {
-    background: linear-gradient(90deg, #007bff, #0056b3); /* تدرج لوني احترافي */
+    background: linear-gradient(90deg, #007bff, #0056b3); 
     color: white;
     padding: 12px 20px;
     border: none;
@@ -69,39 +69,39 @@ button[type="submit"] {
     font-size: 18px;
     font-weight: 700;
     font-family: 'Cairo', sans-serif;
-    transition: all 0.3s ease; /* حركة ناعمة */
+    transition: all 0.3s ease; 
 }
 
 button[type="submit"]:hover {
-    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3); /* ظل عند التمرير */
-    transform: translateY(-2px); /* تأثير رفع بسيط */
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3); 
+    transform: translateY(-2px); 
 }
 
-/* --- 4. تنسيق صندوق النتائج --- */
+
 .result-box {
     margin-top: 25px;
     padding: 20px;
     border-radius: 8px;
-    animation: fadeIn 0.5s ease; /* تأثير ظهور */
+    animation: fadeIn 0.5s ease; 
 }
 
-/* حالة الخطأ */
+
 .result-box.error {
-    background-color: #ffebee; /* أحمر فاتح */
+    background-color: #ffebee; 
     border: 1px solid #e57373;
     color: #c62828;
     font-weight: 700;
 }
 
-/* حالة النجاح */
+
 .result-box.success {
-    background-color: #e8f5e9; /* أخضر فاتح */
+    background-color: #e8f5e9; 
     border: 1px solid #81c784;
 }
 
 .age-display {
     display: flex;
-    justify-content: space-around; /* توزيع العناصر بالتساوي */
+    justify-content: space-around; 
     margin: 15px 0;
 }
 
@@ -112,8 +112,8 @@ button[type="submit"]:hover {
 
 .age-display span strong {
     font-size: 2em;
-    color: #0056b3; /* لون أزرق غامق */
-    display: block; /* جعل الرقم فوق الكلمة */
+    color: #0056b3;
+    display: block; 
 }
 
 hr {
@@ -135,12 +135,12 @@ hr {
     margin: 5px 0 0 0;
 }
 
-.birthday-countdown h3[style*="color: green"] { /* لتخصيص رسالة عيد الميلاد */
+.birthday-countdown h3[style*="color: green"] {
     color: #2e7d32;
     font-size: 1.5em;
 }
 
-/* تأثير الظهور للنتائج */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
