@@ -3,8 +3,10 @@
 مشروع تطبيقي لصفحة ويب تفاعلية بلغة PHP، تم تطويره كجزء من رحلة تعلم لتطبيق مفاهيم البرمجة وفصل الاهتمامات (MVC).
 
 هذا المشروع يحسب العمر بدقة بناءً على تاريخ الميلاد، ويقدم ميزات إضافية مثل العد التنازلي لعيد الميلاد القادم.
+# Interface the Professional Age Calculator
+<img width="891" height="710" alt="image" src="https://github.com/user-attachments/assets/9d6b6c58-adba-4004-92a8-973277452c45" />
+<img width="651" height="897" alt="image" src="https://github.com/user-attachments/assets/95259022-13f7-4b27-b7af-452c9479fc8c" />
 
-![صورة للتطبيق - يمكنك وضع لقطة شاشة لمشروعك هنا]
 
 ---
 
