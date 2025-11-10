@@ -61,9 +61,9 @@
     * إضافة قاعدة بيانات (MySQL) لحفظ تواريخ الميلاد.
     * بناء **API** منفصلة للواجهة الخلفية.
       # رابط التشغيل :
+        https://d279de00-7c95-4541-8866-cbc4074c4833-00-24rdhpkn2dhb7.sisko.replit.dev/
 <img width="185" height="193" alt="image" src="https://github.com/user-attachments/assets/38706048-8689-452b-974d-6e4cc240ed4f" />
 
-        https://d279de00-7c95-4541-8866-cbc4074c4833-00-24rdhpkn2dhb7.sisko.replit.dev/
 ---
 
 ##  الترخيص
